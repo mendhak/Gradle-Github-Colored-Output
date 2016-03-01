@@ -52,7 +52,7 @@ tasks.withType(Test) {
             out.println( "Results: " + summaryStyle + "${result.resultType}" + ANSI_RESET
                     + " (${result.testCount} tests, "
                     + ANSI_GREEN + "${result.successfulTestCount} passed" + ANSI_RESET
-                    + ", " + failStyle + "${result.failedTestCount} failures" + ANSI_RESET
+                    + ", " + failStyle + "${result.failedTestCount} failed" + ANSI_RESET
                     + ", " + skipStyle + "${result.skippedTestCount} skipped" + ANSI_RESET
                     + ")");
             out.println( "--------------------------------------------------------------------------");
