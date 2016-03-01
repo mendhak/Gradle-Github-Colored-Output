@@ -5,14 +5,13 @@ Gradle script plugin which formats test output in a slightly colorful way (made 
 
 At the top of your `build.gradle`,
 
-    //Generating colorful output
-    apply from: 'https://raw.githubusercontent.com/mendhak/Gradle-Travis-Colored-Output/master/ColoredOutput.gradle'
+`apply from: 'https://raw.githubusercontent.com/mendhak/Gradle-Travis-Colored-Output/master/ColoredOutput.gradle'`
 
-Run gradle tests.  
+Run your gradle tests.  
 
 ### Screenshots
 
-**[Travis CI](https://travis-ci.org/mendhak/gpslogger/builds/112727616)**
+**[Travis CI](https://travis-ci.org/mendhak/gpslogger/builds/112735526)**
 
 ![travis](screenshot-travis.png)
 
