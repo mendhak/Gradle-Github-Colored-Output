@@ -5,7 +5,9 @@ Gradle script plugin which formats test output in a slightly colorful way (made 
 
 At the top of your `build.gradle`,
 
-`apply from: 'https://raw.githubusercontent.com/mendhak/Gradle-Travis-Colored-Output/master/ColoredOutput.gradle'`
+```java
+apply from: 'https://raw.githubusercontent.com/mendhak/Gradle-Travis-Colored-Output/master/ColoredOutput.gradle'
+```
 
 Run your gradle tests.  
 
