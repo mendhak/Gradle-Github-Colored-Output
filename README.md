@@ -1,5 +1,5 @@
 # Gradle Travis Colored Output (for tests)
-Gradle script plugin.  It formats gradle test output in a slightly colorful way (made for Travis CI but works in terminal).
+Gradle script plugin.  It formats gradle test output in a slightly colorful way (made for Travis CI but works in terminal).  Also adds a summary at the end.
 
 ## Reference it
 
