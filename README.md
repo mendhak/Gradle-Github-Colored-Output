@@ -6,13 +6,22 @@ This Gradle script plugin formats the Gradle test output in a slightly colorful 
 
 ## Usage
 
+Add the [ColoredOutput.gradle](ColoredOutput.gradle) to your project, for example at `buildtools/ColoredOutput.gradle`
+
 At the top of your `build.gradle`,
 
 ```java
-apply from: 'https://raw.githubusercontent.com/mendhak/Gradle-Travis-Colored-Output/master/ColoredOutput.gradle'
+apply from: 'buildtools/ColoredOutput.gradle'
 ```
 
-Run your gradle tests.  
+If you don't want any Travis folding, you can disable it like so:
+
+```java
+apply from: 'buildtools/ColoredOutput.gradle'
+project.ext.set("TRAVIS_FOLDING", false)
+```
+
+Run your gradle tests.  Run your gradle tests on Travis. 
 
 ### Screenshots
 
