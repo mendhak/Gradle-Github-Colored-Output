@@ -14,11 +14,11 @@ At the top of your `build.gradle`,
 apply from: 'buildtools/ColoredOutput.gradle'
 ```
 
-If you don't want any Travis folding, you can disable it like so:
+If you want Travis folding, you can enable it like so:
 
 ```java
 apply from: 'buildtools/ColoredOutput.gradle'
-project.ext.set("TRAVIS_FOLDING", false)
+project.ext.set("TRAVIS_FOLDING", true)
 ```
 
 Run your gradle tests.  Run your gradle tests on Travis. 
