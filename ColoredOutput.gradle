@@ -49,8 +49,6 @@ tasks.withType(Test) {
             def failStyle = ANSI_RED
             def skipStyle = ANSI_YELLOW
             def summaryStyle = ANSI_WHITE
-            if(result.failedTestCount>0){ failStyle = ANSI_RED }
-            if(result.skippedTestCount > 0) { skipStyle = ANSI_YELLOW }
 
             switch(result.resultType){
                 case TestResult.ResultType.SUCCESS:
