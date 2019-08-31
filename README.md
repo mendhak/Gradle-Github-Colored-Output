@@ -27,7 +27,7 @@ Run your gradle tests.  Run your gradle tests on Github Actions.
 
 **[Github Actions Color](https://github.com/mendhak/gpslogger/commit/11155ea1e7fdb10bf08af02bba8a837598265321/checks#step:5:234)**
 
-![travis](screenshot-githubactions.png)
+![ghactions](screenshot-githubactions.png)
 
 **Terminal**
 
